@@ -1,22 +1,14 @@
 # NAME
 
-Mojolicious::Plugin::FillInForm - Mojolicious plugin to fill in form.
+Mojolicious::Plugin::FillInFormLite - It's new $module
 
 # SYNOPSIS
 
-    # Mojolicious::Lite
-    plugin('FillInFormLite');
-
-    # Mojolicious
-    $app->plugin('FillInFormLite');
-
-    # Controller
-    my %filled = (name => 'John');
-    $c->render_fillinform(\%filled);
+    use Mojolicious::Plugin::FillInFormLite;
 
 # DESCRIPTION
 
-Mojolicious::Plugin::FillInForm is Mojolicious plugin to fill in form.
+Mojolicious::Plugin::FillInFormLite is a helper for FillInForm.
 
 # LICENSE
 
